@@ -2,4 +2,4 @@
 golang前后台分离框架
 
 ###
-![image](https://github.com/MaiEmily/map/blob/master/public/image/20190528145810708.png)
+![image](http://img1.sscmgroup.com/news/1d215a92-d12d-4437-8225-3128347ee46c.jpg)
