@@ -1,5 +1,5 @@
 # go-admin-template
-该项目使用golang + Vue搭建前后端分离框架，包含整套后台系统基础功能，可做为后台基础框架搭建后台管理系统。
+该项目使用golang + Vue搭建前后端分离框架，包含整套后台管理系统基础框架，可在此基础上构建完整后台管理系统。
 
 ## 后端Golang使用到的插件
 -  [Gin](https://github.com/gin-gonic/gin) (web api接口)
@@ -46,6 +46,7 @@ $ ./go_admin api -c ../conf/local.toml
 
 
 ## 前端界面基于[vue-admin-template](https://github.com/PanJiaChen/vue-admin-template)，权限控制可精细到按钮级别，前端组件参考:
+-  [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template) 
 -  [ruoyi-vue](https://gitee.com/y_project/RuoYi-Vue) 
 
 ## 线上效果预览
@@ -55,5 +56,5 @@ $ ./go_admin api -c ../conf/local.toml
 
 演示地址：[http://demo.sscmgroup.com/](http://demo.sscmgroup.com/)
 
-## 如有疑问联系微信
+## 如有疑问联系微信备注:github
 ![image](http://img1.sscmgroup.com/avatar/wx.jpg)
