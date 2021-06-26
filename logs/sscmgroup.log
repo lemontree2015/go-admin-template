@@ -1,0 +1,17 @@
+{"level":"info","memo":"审核组","msg":"该角色已存在","name":"audit","time":"2021-04-25T18:13:17+08:00"}
+{"level":"info","msg":"getRole ........","time":"2021-04-25T18:52:56+08:00"}
+{"level":"info","msg":"getRole ........","time":"2021-04-25T18:54:46+08:00"}
+{"level":"info","msg":"[] Error 1103: Incorrect table name ''","time":"2021-04-25T18:54:46+08:00"}
+{"level":"info","msg":"getRole ........","time":"2021-04-25T18:56:35+08:00"}
+{"level":"info","msg":"[0xc000070960 0xc000070a80] \u003cnil\u003e","time":"2021-04-25T18:56:35+08:00"}
+{"level":"info","msg":"getRole ........","time":"2021-04-25T18:58:39+08:00"}
+{"level":"info","msg":"loop role admin","time":"2021-04-25T18:58:39+08:00"}
+{"level":"info","msg":"loop role audit","time":"2021-04-25T18:58:39+08:00"}
+{"level":"info","msg":"[0xc0000925a0 0xc0000926c0] \u003cnil\u003e","time":"2021-04-25T18:58:39+08:00"}
+{"level":"info","msg":"load Casbin Policy","time":"2021-04-25T23:42:26+08:00"}
+{"level":"info","msg":"load Casbin Policy","time":"2021-04-25T23:43:26+08:00"}
+{"level":"info","msg":"load Casbin Policy","time":"2021-04-25T23:44:26+08:00"}
+{"level":"info","msg":"load Casbin Policy","time":"2021-04-25T23:54:42+08:00"}
+{"level":"info","msg":"load Casbin Policy","time":"2021-04-26T09:33:16+08:00"}
+{"level":"info","msg":"load Casbin Policy","time":"2021-04-26T09:34:16+08:00"}
+{"level":"info","msg":"load Casbin Policy","time":"2021-04-26T09:35:16+08:00"}

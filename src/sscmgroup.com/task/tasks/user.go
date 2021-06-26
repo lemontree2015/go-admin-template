@@ -5,8 +5,8 @@ import (
 	"github.com/urfave/cli/v2"
 )
 
-//use age go run main.go task -c 234 user del liangpang 55 345346346 tttt
-//use age go run main.go task -c 234 user add -n liangpang
+//use age go run main.go task -c 234 user del test 55 345346346 tttt
+//use age go run main.go task -c 234 user add -n test
 var UserTasks = &cli.Command{
 	Name:  "user",
 	Usage: "运行task user 服务",

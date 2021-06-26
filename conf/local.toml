@@ -7,20 +7,20 @@ PrintConfig = false
         addr = ":3323"
         mod = "test"
 [log]
-    dir = "/Users/liangpang/Documents/go/sscm_go_admin/logs"
+    dir = "set you log path here"
     FileName = "sscmgroup.log"
     Level = "debug"
 [databases]
     [databases.mgr_db]
         driver = "mysql"
-        dsn = "root:@tcp(127.0.0.1:3306)/quick_backend?parseTime=True&loc=Local&allowNativePasswords=true"
+        dsn = "user:password@tcp(127.0.0.1:3306)/quick_backend?parseTime=True&loc=Local&allowNativePasswords=true"
         active = 1000
         idle = 10
         idleTimeout = 10
         Debug = true
     [databases.cms_db]
         driver = "mysql"
-        dsn = "root:@tcp(127.0.0.1:3306)/quick_cms?parseTime=True&loc=Local&allowNativePasswords=true"
+        dsn = "user:password@tcp(127.0.0.1:3306)/quick_cms?parseTime=True&loc=Local&allowNativePasswords=true"
         active = 1000
         idle = 10
         idleTimeout = 10
@@ -28,7 +28,7 @@ PrintConfig = false
 [casbin]
     Enable = true
     Debug = false
-    Model = "/Users/liangpang/Documents/go/sscm_go_admin/conf/model.conf"
+    Model = "set casbin model here"
     AutoLoad = true
     AutoLoadInternal = 60
 [jwt]
@@ -60,8 +60,8 @@ PrintConfig = false
     ttl = 60
 [uploads]
     [uploads.avatar]
-        dir = "/Users/liangpang/Documents/go/sscm_go_admin/uploads/avatar/"
-        cdnHost = "http://static.sscmgroup.com/avatar/"
+        dir = "set avatar upload path here"
+        cdnHost = "set avatar upload domain"
     [uploads.news]
-        dir = "/Users/liangpang/Documents/go/sscm_go_admin/uploads/news/"
-        cdnHost = "http://static.sscmgroup.com/news/"
+        dir = "set news upload path here"
+        cdnHost = "set news upload domain"
