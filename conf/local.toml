@@ -1,0 +1,67 @@
+PrintConfig = false
+[http]
+    [http.mgr]
+        addr = ":3223"
+        mod = "test"
+    [http.api]
+        addr = ":3323"
+        mod = "test"
+[log]
+    dir = "/Users/liangpang/Documents/go/sscm_go_admin/logs"
+    FileName = "sscmgroup.log"
+    Level = "debug"
+[databases]
+    [databases.mgr_db]
+        driver = "mysql"
+        dsn = "root:@tcp(127.0.0.1:3306)/quick_backend?parseTime=True&loc=Local&allowNativePasswords=true"
+        active = 1000
+        idle = 10
+        idleTimeout = 10
+        Debug = true
+    [databases.cms_db]
+        driver = "mysql"
+        dsn = "root:@tcp(127.0.0.1:3306)/quick_cms?parseTime=True&loc=Local&allowNativePasswords=true"
+        active = 1000
+        idle = 10
+        idleTimeout = 10
+        Debug = false
+[casbin]
+    Enable = true
+    Debug = false
+    Model = "/Users/liangpang/Documents/go/sscm_go_admin/conf/model.conf"
+    AutoLoad = true
+    AutoLoadInternal = 60
+[jwt]
+    [jwt.mgr]
+        secret = "mgr_g1zUtXcZY38zX6SlvdySbKdivqvBdre8"
+        ttl = 6000
+[redis]
+    [redis.user_cache]
+        addrs = "127.0.0.1:6379"
+        password = ""
+        pool_size = 100
+    [redis.book_cache]
+        addrs = "127.0.0.1:6379"
+        password = ""
+        pool_size = 100
+[captcha]
+    # 存储方式(支持：memory/redis)
+    Store = "redis"
+    # 数字长度
+    Length = 8
+    # 图片宽度
+    Width = 400
+    # 图片高度
+    Height = 160
+    # redis数据库(如果存储方式是redis，则指定存储的数据库)
+    RedisDB = 0
+    # 存储到redis数据库中的键名前缀
+    RedisPrefix = "captcha_"
+    ttl = 60
+[uploads]
+    [uploads.avatar]
+        dir = "/Users/liangpang/Documents/go/sscm_go_admin/uploads/avatar/"
+        cdnHost = "http://static.sscmgroup.com/avatar/"
+    [uploads.news]
+        dir = "/Users/liangpang/Documents/go/sscm_go_admin/uploads/news/"
+        cdnHost = "http://static.sscmgroup.com/news/"
