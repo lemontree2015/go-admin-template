@@ -58,3 +58,8 @@ $ ./go_admin api -c ../conf/local.toml
 
 ## 如有疑问联系微信备注:github
 ![image](http://img1.sscmgroup.com/avatar/wx.jpg)
+
+## 赞助
+> 如果您觉得该项目对你有帮助，您可以给作者打赏一杯奶茶表示支持
+
+![image](http://img1.sscmgroup.com/avatar/pay.jpg)
